@@ -105,6 +105,7 @@ body::-webkit-scrollbar {
 
 .testimonial {
     background-image: url(./asset/images/WhatsApp\ Image\ 2023-01-28\ at\ 18.14.45.jpeg);
+    background-repeat: no-repeat;
     border-radius: 2rem 0 2rem 0;
     color: #ffffff;
     font-weight: 900;
@@ -155,3 +156,182 @@ body::-webkit-scrollbar {
     font-weight: 900;
     text-decoration: underline;
 }
+
+/* media-query */
+@media screen and (max-width: 1024px) {
+    .testimonial {
+        background-image: url(./asset/images/pic.jpeg);
+        border-radius: 2rem 0 2rem 0;
+        color: #ffffff;
+        font-weight: 900;
+        padding: 1rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45vmax;
+    }
+    
+    .review {
+        margin-top: 15rem;
+        color: whitesmoke;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 900;
+        background-color: rgb(165, 129, 129);
+    }
+    
+    .occupation {
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    }
+    
+    @media screen and (max-width: 922px) {
+        .testimonial {
+            background-image: url(./asset/images/pic.jpeg);
+            border-radius: 2rem 0 2rem 0;
+            color: #ffffff;
+            font-weight: 900;
+            padding: 1rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 45vmax;
+        }
+    
+        .review {
+            margin-top: 15rem;
+            color: whitesmoke;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 900;
+            background-color: rgb(165, 129, 129);
+        }
+    
+        #sign-up {
+       
+            /* grid-gap: 5%; */
+            background: linear-gradient(rgba(136, 136, 125, 0.8), rgba(136, 136, 125, 0.8)), url(./asset/images/doodle.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 10rem 5rem 8rem 10rem;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    
+        .occupation {
+            font-size: 1rem;
+            font-weight: 900;
+            color: #03000a;
+            font-family: sans-serif;
+        }
+    
+        .reviewer-name {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 900;
+            color: #03000a;
+            font-family: sans-serif;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .wrapper {
+            display: block;
+            background-color: none;
+        }
+    
+        .review {
+            margin-top: 8rem;
+            color: rgb(255, 255, 255);
+            line-height: 18px;
+            font-size: 0.9rem;
+            font-weight: bolder;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+    
+        .create-account {
+            background-color: #ffffff;
+        }
+    
+        .reviewer-name {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 900;
+        }
+    
+        .occupation {
+            font-size: 1rem;
+            font-weight: 900;
+    }
+    }
+    @media screen and (max-width: 600px) {
+        .create-account {
+            padding: 0rem;
+        }
+    
+        .testimonial {
+            background-image: url(./asset/images/pic.jpeg);
+            border-radius: 2rem 0 2rem 0;
+            color: #ffffff;
+            font-weight: 900;
+            padding: 2rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 50vh;
+        
+       }
+    
+       .wrapper {
+            background-color: #ffffff;
+            display: block;
+        }
+    
+        #sign-up {
+            background: linear-gradient(rgba(136, 136, 125, 0.8), rgba(136, 136, 125, 0.8)), url(./asset/images/doodle.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 8rem 8rem 8rem 8rem;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    
+       form {
+            text-align: center;
+            padding-left: 3.5rem;
+        }
+        .sign {
+            padding-left: 3.5rem;
+        }
+    }
+    @media screen and (max-width: 425px) {
+        #sign-up {
+            background: linear-gradient(rgba(136, 136, 125, 0.8), rgba(136, 136, 125, 0.8)), url(./asset/images/doodle.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 5rem 5rem 5rem 5rem;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    
+        form {
+            text-align: center;
+            padding-left: 1.5rem;
+        }
+    
+        .sign {
+            padding-left: 1.5rem;
+        }
+    
+        .review {
+            margin-top: 7rem;
+            color: whitesmoke;
+            font-size: 0.6rem;
+            margin-bottom: 1rem;
+            font-weight: 900;
+            line-height: 2;
+            background-color: rgb(165, 129, 129);
+        }
+    
+        .wrapper {
+            background-color: #ffffff;
+            display: grid;
+        } 
+    }
