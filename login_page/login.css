@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+#login {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    background: linear-gradient(rgba(136, 136, 125, 0.8), rgba(136, 136, 125, 0.8)), url(../asset/images/doodle.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 8rem 15rem 8rem 15rem; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper {
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    background-color: #ffffff;
+    padding: 25px 7px 10px 7px;
+    max-width: 100%;
+    width: 290px;
+    height: auto;
+    border: 1px solid #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo img {
+    width: 5rem;
+    height: 2rem;
+}
+a {
+    font-weight: 900;
+    text-decoration: none;
+}
+.welcome h3 {
+    padding-top: 1.7rem;
+    padding-bottom: 0.5rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.motto {
+    font-size: 0.65rem;
+    font-style: 400;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 900;
+}
+.welcome form input {
+    height: 3vh;
+    width: 34vh;
+    border-top: none;
+    border-bottom: 1px solid #0EC9CE;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #000000;
+    font-size: 0.7rem;
+}
+.create {
+    width: 34vh;
+    height: 3vh;
+    background-color: #170736;
+    color: #ffffff;
+    background-position: right bottom;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid #170736;
+    border-radius: 0.3rem;
+    font-size: 0.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.create:hover {
+    background-position: right bottom;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    background-color: #021330;
+}
+
+.login-options button {
+    width: 34vh;
+    height: 3vh;
+    background-color: transparent;
+    color: #000000;
+    display: block;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #0EC9CE;
+    font-size: 0.5rem;
+}
+.login-options button:hover {
+    border: 1px solid #170736;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.fa-google {
+    color: rgb(173, 5, 5);
+    margin-right: 0.5rem;
+}
+.fa-instagram {
+    color: #ff00ff;
+    margin-right: 0.5rem;
+}
+
+.new-user {
+    font-size: 0.45rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
+.new-user a {
+    font-weight: 900;
+    
+}
+
+
+.log {
+    font-weight: 900;
+    text-decoration: underline;
+    color: black;
+}
+ 
+
+/* media-query */
+/* @media (max-width: 1024px) {
+
+ #sign-up {
+    padding: 7rem 3rem 7rem 3rem;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+#sign-up {
+    padding: 2rem 10rem 2rem 10rem;
+}
+
+    .wrapper {
+        display: block;
+        background-color: none;
+    }
+    .create-account {
+        padding-left: 0rem;
+}
+
+   
+    .create-account form input {
+        width: 50vw;
+        margin-right: 2rem;
+        border-bottom: 1px solid #0EC9CE;
+        
+    }
+    
+    .create, .sign button {
+    width: 50vw;
+    margin-right: 2rem;
+    
+    }
+
+}
+@media (max-width: 600px) {
+    .create-account {
+        padding: 0rem;
+    }
+
+
+   .wrapper {
+        background-color: #ffffff;
+        display: block;
+    }
+
+    #sign-up {
+        background: linear-gradient(rgba(136, 136, 125, 0.8), rgba(136, 136, 125, 0.8)), url(../asset/images/doodle.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 8rem 8rem 8rem 8rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+   form {
+        text-align: center;
+    }
+    .sign {
+        padding-left: 3.5rem;
+    }
+}
+
+
+@media (max-width: 425px) {
+    #sign-up {
+        padding: 5vh 5vw 5vh 5vw;
+    }
+
+    form {
+        text-align: center;
+        padding-left: 1.5rem;
+    }
+
+    .sign {
+        padding-left: 1.5rem;
+    }
+
+
+
+    .wrapper {
+        background-color: #ffffff;
+    } 
+} */
